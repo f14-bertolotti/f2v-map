@@ -1,0 +1,5 @@
+torch
+jep
+jsonlines
+numpy
+git+https://github.com/casics/spiral.git
