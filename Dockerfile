@@ -12,7 +12,7 @@ ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 # INSTALL REQUIREMENTS
 RUN pip3 install \
     torch \
-    jep \
+    jep==4.1.0 \
     jsonlines \
     numpy \
     git+https://github.com/casics/spiral.git
